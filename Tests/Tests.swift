@@ -548,31 +548,31 @@ class DeviceKitTests: XCTestCase {
     }
   }
 
-  // MARK: - volumes
-  @available(iOS 11.0, *)
-  func testVolumeTotalCapacity() {
-    XCTAssertNotNil(Device.volumeTotalCapacity)
-  }
-
-  @available(iOS 11.0, *)
-  func testVolumeAvailableCapacity() {
-    XCTAssertNotNil(Device.volumeAvailableCapacity)
-  }
-
-  @available(iOS 11.0, *)
-  func testVolumeAvailableCapacityForImportantUsage() {
-    XCTAssertNotNil(Device.volumeAvailableCapacityForImportantUsage)
-  }
-
-  @available(iOS 11.0, *)
-  func testVolumeAvailableCapacityForOpportunisticUsage() {
-    XCTAssertNotNil(Device.volumeAvailableCapacityForOpportunisticUsage)
-  }
-
-  @available(iOS 11.0, *)
-  func testVolumes() {
-    XCTAssertNotNil(Device.volumes)
-  }
+//  // MARK: - volumes
+//  @available(iOS 11.0, *)
+//  func testVolumeTotalCapacity() {
+//    XCTAssertNotNil(Device.volumeTotalCapacity)
+//  }
+//
+//  @available(iOS 11.0, *)
+//  func testVolumeAvailableCapacity() {
+//    XCTAssertNotNil(Device.volumeAvailableCapacity)
+//  }
+//
+//  @available(iOS 11.0, *)
+//  func testVolumeAvailableCapacityForImportantUsage() {
+//    XCTAssertNotNil(Device.volumeAvailableCapacityForImportantUsage)
+//  }
+//
+//  @available(iOS 11.0, *)
+//  func testVolumeAvailableCapacityForOpportunisticUsage() {
+//    XCTAssertNotNil(Device.volumeAvailableCapacityForOpportunisticUsage)
+//  }
+//
+//  @available(iOS 11.0, *)
+//  func testVolumes() {
+//    XCTAssertNotNil(Device.volumes)
+//  }
 
   func testCameras() {
     for device in Device.allDevicesWithCamera {

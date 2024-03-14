@@ -7,17 +7,7 @@
 	<key>NSPrivacyCollectedDataTypes</key>
 	<array/>
 	<key>NSPrivacyAccessedAPITypes</key>
-	<array>
-		<dict>
-			<key>NSPrivacyAccessedAPITypeReasons</key>
-			<array>
-				<string>85F4.1</string>
-				<string>E174.1</string>
-			</array>
-			<key>NSPrivacyAccessedAPIType</key>
-			<string>NSPrivacyAccessedAPICategoryDiskSpace</string>
-		</dict>
-	</array>
+	<array/>
 	<key>NSPrivacyTracking</key>
 	<false/>
 </dict>
